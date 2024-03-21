@@ -3,7 +3,6 @@ from Rat import Rat
 
 
 class main3:
-
     a = Rat(2, 3)
     b = Rat(3, 6)
 
@@ -23,6 +22,11 @@ class main3:
 
     cal1.printDetail()
 
-    c = Rat(1,0)
+    b.den = 9
 
-    c.printDetail()
+    b.printDetail()
+    try:
+        c = Rat(1, 0)
+        c.printDetail()
+    except ValueError as e:
+        print(e)
