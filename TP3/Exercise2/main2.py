@@ -19,3 +19,5 @@ class main2:
 
     print(employee.calculateEmpSalary('E01', 72))
     print(employee.calculateEmpSalary('E02', 40))
+
+    employee.printAllEmployee()
